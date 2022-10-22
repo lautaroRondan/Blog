@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const SideBar = () => {
+const Sidebar = () => {
 
     const [buscar, setBuscar] = useState("");
     const navegar = useNavigate();
@@ -22,17 +22,8 @@ const SideBar = () => {
                     <input type="submit" id="search" value="Buscar" />
                 </form>
             </div>
-
-            {/* <div className="add">
-                <h3 className="title"> Añadir Peliculas</h3>
-                <form >
-                    <input type="text" placeholder="Titulo"/>
-                    <textarea placeholder="Descripcion"></textarea>
-                    <input type="submit" value="Guardar"/>
-                </form>
-            </div> */}
         </aside>
     )
 }
 
-export default SideBar
+export default Sidebar

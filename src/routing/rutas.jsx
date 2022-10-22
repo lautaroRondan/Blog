@@ -3,7 +3,7 @@ import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
 import Nav from "../components/layout/Nav";
-import SideBar from "../components/layout/SideBar";
+import Sidebar from "../components/layout/Sidebar";
 import Articulo from "../components/pages/Articulo";
 import Articulos from "../components/pages/Articulos";
 import Busqueda from "../components/pages/Busqueda";
@@ -41,7 +41,7 @@ export const Rutas = ()=>{
                 </Routes>
             </section>
 
-            <SideBar/>
+            <Sidebar/>
             <Footer/>
 
         </BrowserRouter>
